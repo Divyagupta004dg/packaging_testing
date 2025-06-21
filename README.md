@@ -3,9 +3,9 @@ Packaging -fundamentals and testing
 
 This repository highlights the immersive technical journey undertaken by Divya Gupta during a specialized training on advanced semiconductor assembly and verification techniques. The experience was crafted to bridge theory and practice — offering a modern perspective on how chips transition from wafer to system. The learning pathway spanned high-density integration strategies like 2.5D and 3D packaging, multilayer routing with RDLs, and component linking via interposers. In parallel, hands-on labs using ANSYS simulation tools brought packaging challenges to life through real-time modeling of heat distribution, mechanical stress, and structural optimization. This repository serves as both a personal documentation space and a knowledge vault for fellow enthusiasts and learners.
 
-**Module 1:**
+# **Module 1:**
 
-**Evolution of Semiconductor Packaging – From Fundamentals to Advanced Integration**
+# **Evolution of Semiconductor Packaging – From Fundamentals to Advanced Integration**
 
 
 Why is Semiconductor Packaging Needed?
@@ -32,6 +32,5 @@ Packaging Example: BGA (Ball Grid Array)
          ↓
        PCB
 
-   ![Image](https://github.com/user-attachments/assets/9eb6b7e2-3df4-4e88-9e80-1e8650c704e7)
        
 
