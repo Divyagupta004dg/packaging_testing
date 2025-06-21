@@ -39,7 +39,7 @@ Modern ICs are born in ultra-clean fabs as fragile bare dies. Before these can e
 
 🧩 Understanding the Chip-to-Board Flow
 
-The image on the right illustrates the integration hierarchy from the die (chip) to the final PCB (board):   ![image](https://github.com/user-attachments/assets/324b3d76-96d5-4ca9-92e5-14bd33593519)
+The image illustrates the integration hierarchy from the die (chip) to the final PCB (board):   ![image](https://github.com/user-attachments/assets/324b3d76-96d5-4ca9-92e5-14bd33593519)
 
 Chip: The silicon die containing the core logic.
 
@@ -47,7 +47,7 @@ Package: Encapsulates the die and provides external I/O access.
 
 Board (PCB): Hosts the packaged components and connects them to other system parts.
 
-Packaging Example: BGA (Ball Grid Array) 
+Packaging Example: BGA (Ball Grid Array) ![Image](https://github.com/user-attachments/assets/a63531f9-5c8e-4caf-adfe-d9580024324a)
 
 
 
