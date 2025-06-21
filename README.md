@@ -32,6 +32,10 @@ Packaging Example: BGA (Ball Grid Array)
       Substrate
          ↓
        PCB
+
+       
+![Image](https://github.com/user-attachments/assets/c64a0b22-d0d2-41a7-ad1e-24b4a3702bd3)
+
 **Semiconductor Workflow:**
 
 1.Design (Fabless or IDM)
