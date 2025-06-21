@@ -49,6 +49,25 @@ Board (PCB): Hosts the packaged components and connects them to other system par
 
 Packaging Example: BGA (Ball Grid Array) ![Image](https://github.com/user-attachments/assets/a63531f9-5c8e-4caf-adfe-d9580024324a)
 
+Below hierarchical structure of electronic integration—from chip to package to board—highlighting the critical role of packaging in connecting and protecting semiconductor devices. The right side presents key factors in choosing the right package, including:
+
+Application type (logic, memory, power)
+Form factor
+Reliability and durability
+Cost
+Thermal dissipation
+Pin count (I/O pins)
+
+# Package Structure
+This diagram illustrates the typical structure of an electronic package, which serves as a bridge between the silicon die and the system board (PCB). Key components include:
+
+Mold compound: Protects the internal components from environmental damage.
+Die: The actual semiconductor chip performing the electronic functions.
+Die-to-carrier interconnections: Enable electrical connectivity between the die and the carrier.
+Carrier: Provides mechanical support and routing for signals.
+Carrier-to-board interconnections: Link the package to the system board.
+System Board (PCB): The final platform where the package is mounted and integrated into the device.
+
 
 
        
