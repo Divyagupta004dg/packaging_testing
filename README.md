@@ -31,5 +31,7 @@ Packaging Example: BGA (Ball Grid Array)
       Substrate
          ↓
        PCB
+
+   ![Image](https://github.com/user-attachments/assets/9eb6b7e2-3df4-4e88-9e80-1e8650c704e7)
        
 
