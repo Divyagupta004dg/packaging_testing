@@ -62,12 +62,103 @@ Pin count (I/O pins)
 This diagram illustrates the typical structure of an electronic package, which serves as a bridge between the silicon die and the system board (PCB). Key components include:
 
 Mold compound: Protects the internal components from environmental damage.
-Die: The actual semiconductor chip performing the electronic functions.
-Die-to-carrier interconnections: Enable electrical connectivity between the die and the carrier.
-Carrier: Provides mechanical support and routing for signals.
-Carrier-to-board interconnections: Link the package to the system board.
-System Board (PCB): The final platform where the package is mounted and integrated into the device.
 
+Die: The actual semiconductor chip performing the electronic functions.
+
+Die-to-carrier interconnections: Enable electrical connectivity between the die and the carrier.
+
+Carrier: Provides mechanical support and routing for signals.
+
+Carrier-to-board interconnections: Link the package to the system board.
+
+System Board (PCB): The final platform where the package is mounted and integrated into the device.
+![image](https://github.com/user-attachments/assets/b5f3d3d6-bfe1-4296-b726-21c5156d5145)
+# Types of Packaging
+Electronic component packaging is essential for protecting semiconductor devices and enabling their integration into systems. Packaging types are broadly classified into Through-Hole Mounting and Surface Mount Technology (SMT). Each type offers unique benefits in terms of size, performance, and application.
+
+1. Through-Hole Mounting
+
+DIP (Dual In-line Package): Rectangular package with two rows of pins for insertion into a PCB.
+
+TO (Transistor Outline): Cylindrical or flat package for transistors with leads extending from the bottom.
+
+PGA (Pin Grid Array): Package with a grid of pins underneath for socket or solder mounting.
+
+2. Surface Mount Technology (SMT)
+
+QFN (Quad Flat No-lead): Leadless package with solder pads underneath for compact mounting.
+
+QFP (Quad Flat Package): Flat square package with leads on all four sides.
+
+CSP (Chip Scale Package): Ultra-compact package nearly the same size as the chip itself.
+
+PBGA (Plastic Ball Grid Array): BGA package using plastic substrate with solder balls underneath.
+
+LGA (Land Grid Array): Package with flat contact pads instead of pins for board connection.
+
+PoP (Package on Package): Stacked ICs in a single package to save space and enhance performance.
+
+MCM (Multi-Chip Module): Multiple chips integrated into one module for higher functionality.
+
+CoWoS (Chip-on-Wafer-on-Substrate): Advanced 2.5D packaging integrating chips on a silicon interposer.
+![image](https://github.com/user-attachments/assets/5088baef-a5ea-4e41-9b82-c24a41804819)
+
+# Anatomy of Packaging
+Semiconductor packaging is categorized into Leadframe, Laminate, and Advanced package substrates, each offering different levels of complexity, performance, and integration. These packages protect the chip, provide electrical connections, and support thermal and mechanical stability.
+
+1. Leadframe Packages
+
+DIP (Dual In-line Package): A rectangular package with two rows of pins for through-hole mounting.
+
+QFN (Quad Flat No-lead): A compact surface-mount package with no leads, using pads underneath.
+
+Leadframe-CSP: A chip-scale package built on a leadframe for minimal size and cost.
+
+Leadframe-QFP: A flat package with leads on all four sides, using a leadframe base.
+
+2. Laminate Packages
+
+Wire bond PBGA: A plastic BGA package using wire bonding to connect the die to the substrate.
+
+Flip chip PBGA: A BGA package using flip-chip bonding for better electrical performance.
+
+PBGA (Plastic Ball Grid Array): A cost-effective BGA package with plastic encapsulation.
+
+LGA (Land Grid Array): A package with flat contact pads instead of pins for board-level connection.
+
+FC-CSP (Flip Chip Chip Scale Package): A compact package using flip-chip technology for high I/O density.
+
+3. Advanced Package Substrates
+   
+2D FCBGA Substrate: A flat flip-chip BGA substrate for high-performance applications.
+
+2.1D FCBGA with RDL: Adds a redistribution layer to enhance signal routing and connectivity.
+
+2.3D FCBGA with Si Interposer: Uses a silicon interposer to connect multiple dies efficiently.
+
+2.5D CoWoS: Integrates SoC and HBM on a silicon interposer for high bandwidth and performance.
+
+![image](https://github.com/user-attachments/assets/5f8963b6-e26c-419a-92c7-d3334a3e5142)
+
+# Nomenclature of Packaging
+This graphic provides a structured overview of modern semiconductor packaging technologies and how different types of chips (single, multi-chip, SoCs, chiplets, etc.) are integrated with package substrates and ultimately connected to a Printed Circuit Board (PCB).
+![image](https://github.com/user-attachments/assets/5ade0bdb-9252-45b5-84b5-ab11a35f43c1)
+Once the package is assembled, it is placed onto the PCB. The PCB provides:
+
+. System-level integration
+
+. Power and data communication
+
+. Final product form factor
+
+# Comparative Packaging Evaluation
+
+This section aids in evaluating package types based on key factors such as, Performance, Cost, Space limitations, Thermal performance and Reliability. Selecting the most suitable package requires balancing these factors according to the specific needs of the application, system design, and business objectives.
+![image](https://github.com/user-attachments/assets/077e62ba-60c3-4735-b2e6-c34dc9e90e55)
+
+# Module 2:
+
+# From Silicon Wafer to Complete Package – Assembly and Fabrication Processes
 
 
        
