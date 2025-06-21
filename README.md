@@ -16,23 +16,6 @@ Modern ICs are born in ultra-clean fabs as fragile bare dies. Before these can e
  Enable connectivity with the real world
  
 🔗 The die is the heart of every semiconductor device — it's the tiny square or rectangular piece of silicon that holds the actual integrated circuit (IC). All the transistors, logic gates, memory cells, and functional units are etched into this small chip during the fabrication process.
-
-Packaging Example: BGA (Ball Grid Array)
-
-┌────────────────────────────┐
-│   Molding Compound         │
-│    ┌────────────┐          │
-│    │   Die      │<-- Die   │
-│    └────────────┘          │
-│     ↑   ↑                  │
-│ Wire | Die Attach          │
-│ Bond |                     │
-└──────┴─────────────────────┘
-         ↓
-      Substrate
-         ↓
-       PCB
-
        
 ![Image](https://github.com/user-attachments/assets/c64a0b22-d0d2-41a7-ad1e-24b4a3702bd3)
 
@@ -51,5 +34,22 @@ Packaging Example: BGA (Ball Grid Array)
 .Package Test
 
 4.Assembly
+
+# Product Requirements in Semiconductor Packaging
+
+🧩 Understanding the Chip-to-Board Flow
+
+The image on the right illustrates the integration hierarchy from the die (chip) to the final PCB (board):   ![image](https://github.com/user-attachments/assets/324b3d76-96d5-4ca9-92e5-14bd33593519)
+
+Chip: The silicon die containing the core logic.
+
+Package: Encapsulates the die and provides external I/O access.
+
+Board (PCB): Hosts the packaged components and connects them to other system parts.
+
+Packaging Example: BGA (Ball Grid Array) 
+
+
+
        
 
