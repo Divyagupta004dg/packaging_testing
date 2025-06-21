@@ -14,6 +14,7 @@ Modern ICs are born in ultra-clean fabs as fragile bare dies. Before these can e
  Protect the die (corrosion, moisture, physical shock)
 
  Enable connectivity with the real world
+ 
 🔗 The die is the heart of every semiconductor device — it's the tiny square or rectangular piece of silicon that holds the actual integrated circuit (IC). All the transistors, logic gates, memory cells, and functional units are etched into this small chip during the fabrication process.
 
 Packaging Example: BGA (Ball Grid Array)
@@ -31,6 +32,20 @@ Packaging Example: BGA (Ball Grid Array)
       Substrate
          ↓
        PCB
+**Semiconductor Workflow:**
 
+1.Design (Fabless or IDM)
+
+2.Wafer Process (Foundries)
+
+3.Package & Test (OSAT or in-house IDM)
+
+.Wafer Test
+
+.Package
+
+.Package Test
+
+4.Assembly
        
 
