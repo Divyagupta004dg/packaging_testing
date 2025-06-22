@@ -308,16 +308,21 @@ RDL (Redistribution Layer) is a critical metallization layer added during WLP:
 
 Steps:
 
-Reconstitution	:  Allows known good dies to be used in a new wafer panel
+1. Reconstitution	:  Allows known good dies to be used in a new wafer panel
 
-RDL (Redistribution Layer)	: Enables fine-pitch routing and bump placement
+2. RDL (Redistribution Layer)	: Enables fine-pitch routing and bump placement
 
-Dielectric + Metal Coating: 	Forms the electrical routing infrastructure
+3. Dielectric + Metal Coating: 	Forms the electrical routing infrastructure
 
-Solder Ball Attach: 	Provides final I/O connections to PCB
+4. Solder Ball Attach: 	Provides final I/O connections to PCB
 
-Singulation: 	Final step to separate packages from reconstituted wafer
+5. Singulation: 	Final step to separate packages from reconstituted wafer
 
 ![image](https://github.com/user-attachments/assets/28c366d6-fcf3-442a-ba48-8de6e4f8588b)
+
+have a look on the video click the thumbnail
+
+[![Watch on YouTube](https://img.youtube.com/vi/hR5orrmpoeE/0.jpg)](https://youtu.be/hR5orrmpoeE?si=eLOXYiwT2DbdwDtr)
+
 
 
