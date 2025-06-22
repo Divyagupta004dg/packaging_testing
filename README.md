@@ -242,11 +242,13 @@ They:
 
 1.Provide direct electrical connections between the chip and substrate.
 
-2.Allow shorter signal paths → higher speed and lower inductance.
+2.Allow shorter signal paths → higher speed and lower inductance. ![image](https://github.com/user-attachments/assets/7ff2a3e4-cc63-447e-8cb6-36088df4f9ae)
 
 3.Enable higher I/O density.
 
 4.Offer better thermal dissipation.
+![image](https://github.com/user-attachments/assets/722b4744-f17c-4691-92a1-100c4cab11b7)
+
 
 # Flip Chip Flow: Key Steps
 1. Bump Formation on Silicon Die
@@ -288,5 +290,7 @@ They:
 
 ![image](https://github.com/user-attachments/assets/506dc8ba-fa2d-4c20-ad12-fddd4fc6bb9d)
 
+
+![image](https://github.com/user-attachments/assets/28c366d6-fcf3-442a-ba48-8de6e4f8588b)
 
 
