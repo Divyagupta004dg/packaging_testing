@@ -160,6 +160,73 @@ This section aids in evaluating package types based on key factors such as, Perf
 
 # From Silicon Wafer to Complete Package – Assembly and Fabrication Processes
 
+# Review of the Supply Chain
+This outlines the key stages in the semiconductor supply chain, detailing the flow from initial design to the final product
 
+. Design House: The process begins with designing integrated circuits (ICs) using EDA tools and foundry PDKs. The output is an IC design file (GDSII) and a test program.
+
+. Wafer Fabrication: Silicon wafers are manufactured using specialized equipment, gases, chemicals, and materials. The result is a wafer with fabricated ICs.
+
+. Package Assembly and Test: Individual ICs are separated from the wafer, assembled into packages with substrates and other materials, and tested for quality.
+
+. Board Assembly and Test: Multiple packaged ICs are mounted onto printed circuit boards (PCBs), assembled using various tools and materials, and then tested.
+
+. Product Assembly and Test: The final stage involves assembling the tested boards and other components into the end product, such as a smartphone, which undergoes final testing before reaching the market.
+
+Each stage is crucial for ensuring the performance and reliability of the final electronic product.
+![image](https://github.com/user-attachments/assets/10d67b71-a848-4b54-9cb7-7c7831b517ea)
+
+# Wafer Preparation Grinding and Dicing
+
+Wafer Preparation Steps are done in controlled cleanroom environment where the wafer processing begins. ISO Class 7 ensures minimal particle contamination, whcih invilve this steps
+
+1.Wafer Preparation Area – Cleanroom (ISO Class 7) for contamination-free processing.
+
+2.Incoming Wafer Carrier – Wafers arrive in protective carriers.
+
+3.Wafer Inspection – Visual/optical check for defects.
+
+4.Front Tape Lamination – Protective tape applied to wafer front.
+
+5.Backside Grinding – Wafer thinned using grinding tools.
+
+6.Tape Frame Mounting – Wafer mounted on tape frame for stability.
+
+7.Two-Step Dicing – Laser grooving followed by blade cutting to separate chips.
+![image](https://github.com/user-attachments/assets/9f37dd0d-2d43-43b9-acbc-22a367f71c81)
+
+# Wire Bond Packaging Process in Semiconductor Manufacturing
+
+This process is part of the back-end semiconductor manufacturing flow, where individual dies are packaged and made ready for integration on PCBs.
+
+KEY STEPS:
+
+1.Die Attach
+
+  . Epoxy is dispensed.
+
+  . The chip is picked and placed onto a substrate using Die Attach Film (DAF).
+
+2.Curing
+
+  . The epoxy is hardened by controlled heating to ensure strong bonding between die and substrate.
+
+3.Wire Bonding
+
+  . Fine gold or aluminum wires connect the die to the package pins using ultrasonic welding and thermal compression.
+
+4.Molding (Transfer Molding)
+
+  . The assembly is encapsulated using a mold compound, protecting the die and wires with resin flow.
+
+5.Marking
+
+  . The package is laser-marked for identification and traceability.
+
+6.Singulation
+
+  . The wafer is diced into individual packaged units using a precision blade.
        
+![image](https://github.com/user-attachments/assets/0035c144-63fe-4794-9ada-3cf46e27fbfc)
+https://youtu.be/3YkGrhvrWxA?si=ZY4GtRBU10XeGFqQ
 
