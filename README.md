@@ -228,6 +228,65 @@ KEY STEPS:
   . The wafer is diced into individual packaged units using a precision blade.
        
 ![image](https://github.com/user-attachments/assets/0035c144-63fe-4794-9ada-3cf46e27fbfc)
+
+click on thumbnail to watch video.
 [![Watch on YouTube](https://img.youtube.com/vi/3YkGrhvrWxA/0.jpg)](https://youtu.be/3YkGrhvrWxA?si=ZY4GtRBU10XeGFqQ)
+
+# Flip Chip Packaging Process – Mass Reflow & Thermo-Compression
+Flip Chip Packaging is a modern method of mounting a semiconductor die face-down onto the package substrate using solder bumps. It is different from traditional wire bonding and offers better electrical, thermal, and mechanical performance.
+
+# Why Are Bumps Needed?
+Solder bumps (also called micro-bumps) replace wires in this approach.
+
+They:
+
+1.Provide direct electrical connections between the chip and substrate.
+
+2.Allow shorter signal paths → higher speed and lower inductance.
+
+3.Enable higher I/O density.
+
+4.Offer better thermal dissipation.
+
+# Flip Chip Flow: Key Steps
+1. Bump Formation on Silicon Die
+• Solder bumps are deposited on the die's bond pads.
+• After reflow, bumps solidify and prepare the chip for mounting.
+
+2. Flip the Chip
+• The die is flipped upside-down to face the substrate for bump contact.
+
+3. Flux Dispensing
+• Flux is applied on the substrate to aid in soldering and oxidation removal.
+
+4. Chip Placement
+• The chip is placed carefully over the substrate, aligning the bumps with pads.
+
+5. Solder Reflow
+• Heat is applied to melt the solder bumps and form solid electrical connections.
+
+6. Flux Cleaning
+• Residual flux is removed using solvents to avoid contamination.
+
+7. Underfill Dispensing
+• Epoxy is filled between the die and substrate to:
+– Improve mechanical strength
+– Distribute thermal stress
+– Prevent solder crack failures
+
+8. Underfill Curing
+• The epoxy is hardened by heating, locking the chip in place.
+
+9. Molding
+• Resin is applied for external protection from environmental damage.
+
+10. Marking
+• Laser is used to inscribe IDs or codes for tracking and quality assurance.
+
+11. Ball Mounting & Final Reflow
+• BGA balls are mounted under the package and soldered for PCB connection.
+
+![image](https://github.com/user-attachments/assets/506dc8ba-fa2d-4c20-ad12-fddd4fc6bb9d)
+
 
 
