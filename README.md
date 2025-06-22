@@ -58,7 +58,7 @@ Cost
 Thermal dissipation
 Pin count (I/O pins)
 
-# Package Structure
+# 1 Package Structure
 This diagram illustrates the typical structure of an electronic package, which serves as a bridge between the silicon die and the system board (PCB). Key components include:
 
 Mold compound: Protects the internal components from environmental damage.
@@ -73,7 +73,7 @@ Carrier-to-board interconnections: Link the package to the system board.
 
 System Board (PCB): The final platform where the package is mounted and integrated into the device.
 ![image](https://github.com/user-attachments/assets/b5f3d3d6-bfe1-4296-b726-21c5156d5145)
-# Types of Packaging
+# 2 Types of Packaging
 Electronic component packaging is essential for protecting semiconductor devices and enabling their integration into systems. Packaging types are broadly classified into Through-Hole Mounting and Surface Mount Technology (SMT). Each type offers unique benefits in terms of size, performance, and application.
 
 1. Through-Hole Mounting
@@ -103,7 +103,7 @@ MCM (Multi-Chip Module): Multiple chips integrated into one module for higher fu
 CoWoS (Chip-on-Wafer-on-Substrate): Advanced 2.5D packaging integrating chips on a silicon interposer.
 ![image](https://github.com/user-attachments/assets/5088baef-a5ea-4e41-9b82-c24a41804819)
 
-# Anatomy of Packaging
+# 3 Anatomy of Packaging
 Semiconductor packaging is categorized into Leadframe, Laminate, and Advanced package substrates, each offering different levels of complexity, performance, and integration. These packages protect the chip, provide electrical connections, and support thermal and mechanical stability.
 
 1. Leadframe Packages
@@ -140,7 +140,7 @@ FC-CSP (Flip Chip Chip Scale Package): A compact package using flip-chip technol
 
 ![image](https://github.com/user-attachments/assets/5f8963b6-e26c-419a-92c7-d3334a3e5142)
 
-# Nomenclature of Packaging
+# 4 Nomenclature of Packaging
 This graphic provides a structured overview of modern semiconductor packaging technologies and how different types of chips (single, multi-chip, SoCs, chiplets, etc.) are integrated with package substrates and ultimately connected to a Printed Circuit Board (PCB).
 ![image](https://github.com/user-attachments/assets/5ade0bdb-9252-45b5-84b5-ab11a35f43c1)
 Once the package is assembled, it is placed onto the PCB. The PCB provides:
@@ -151,7 +151,7 @@ Once the package is assembled, it is placed onto the PCB. The PCB provides:
 
 . Final product form factor
 
-# Comparative Packaging Evaluation
+# 5  Comparative Packaging Evaluation
 
 This section aids in evaluating package types based on key factors such as, Performance, Cost, Space limitations, Thermal performance and Reliability. Selecting the most suitable package requires balancing these factors according to the specific needs of the application, system design, and business objectives.
 ![image](https://github.com/user-attachments/assets/077e62ba-60c3-4735-b2e6-c34dc9e90e55)
@@ -160,7 +160,7 @@ This section aids in evaluating package types based on key factors such as, Perf
 
 # From Silicon Wafer to Complete Package – Assembly and Fabrication Processes
 
-# Review of the Supply Chain
+ # 1 Review of the Supply Chain
 This outlines the key stages in the semiconductor supply chain, detailing the flow from initial design to the final product
 
 . Design House: The process begins with designing integrated circuits (ICs) using EDA tools and foundry PDKs. The output is an IC design file (GDSII) and a test program.
@@ -176,7 +176,7 @@ This outlines the key stages in the semiconductor supply chain, detailing the fl
 Each stage is crucial for ensuring the performance and reliability of the final electronic product.
 ![image](https://github.com/user-attachments/assets/10d67b71-a848-4b54-9cb7-7c7831b517ea)
 
-# Wafer Preparation Grinding and Dicing
+# 2 Wafer Preparation Grinding and Dicing
 
 Wafer Preparation Steps are done in controlled cleanroom environment where the wafer processing begins. ISO Class 7 ensures minimal particle contamination, whcih invilve this steps
 
@@ -195,7 +195,7 @@ Wafer Preparation Steps are done in controlled cleanroom environment where the w
 7.Two-Step Dicing – Laser grooving followed by blade cutting to separate chips.
 ![image](https://github.com/user-attachments/assets/9f37dd0d-2d43-43b9-acbc-22a367f71c81)
 
-# Wire Bond Packaging Process in Semiconductor Manufacturing
+# 3  Wire Bond Packaging Process in Semiconductor Manufacturing
 
 This process is part of the back-end semiconductor manufacturing flow, where individual dies are packaged and made ready for integration on PCBs.
 
@@ -232,7 +232,7 @@ KEY STEPS:
 click on thumbnail to watch video.
 [![Watch on YouTube](https://img.youtube.com/vi/3YkGrhvrWxA/0.jpg)](https://youtu.be/3YkGrhvrWxA?si=ZY4GtRBU10XeGFqQ)
 
-# Flip Chip Packaging Process – Mass Reflow & Thermo-Compression
+# 4 Flip Chip Packaging Process – Mass Reflow & Thermo-Compression
 Flip Chip Packaging is a modern method of mounting a semiconductor die face-down onto the package substrate using solder bumps. It is different from traditional wire bonding and offers better electrical, thermal, and mechanical performance.
 
 # Why Are Bumps Needed?
