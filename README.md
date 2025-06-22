@@ -1,7 +1,10 @@
 # Packaging_testing
 Packaging -fundamentals and testing
 
-This repository highlights the immersive technical journey undertaken by Divya Gupta during a specialized training on advanced semiconductor assembly and verification techniques. The experience was crafted to bridge theory and practice — offering a modern perspective on how chips transition from wafer to system. The learning pathway spanned high-density integration strategies like 2.5D and 3D packaging, multilayer routing with RDLs, and component linking via interposers. In parallel, hands-on labs using ANSYS simulation tools brought packaging challenges to life through real-time modeling of heat distribution, mechanical stress, and structural optimization. This repository serves as both a personal documentation space and a knowledge vault for fellow enthusiasts and learners.
+This repository documents Divya Gupta's specialized training in advanced semiconductor packaging and assembly techniques. The comprehensive program bridged theoretical concepts with practical applications, covering cutting-edge technologies including 2.5D/3D packaging, multilayer RDL routing, and silicon interposer integration. Hands-on ANSYS simulation labs provided real-world experience in thermal modeling, stress analysis, and structural optimization. This repository serves as both a technical portfolio and a knowledge resource.
+
+![image](https://github.com/user-attachments/assets/2afa0daf-db90-488f-91c0-347b72169f36)
+
 
 # **Module 1:**
 
