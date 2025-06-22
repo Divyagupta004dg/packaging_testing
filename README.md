@@ -242,11 +242,13 @@ They:
 
 1.Provide direct electrical connections between the chip and substrate.
 
-2.Allow shorter signal paths → higher speed and lower inductance. ![image](https://github.com/user-attachments/assets/7ff2a3e4-cc63-447e-8cb6-36088df4f9ae)
+2.Allow shorter signal paths → higher speed and lower inductance.
 
 3.Enable higher I/O density.
 
 4.Offer better thermal dissipation.
+
+how it looks 
 ![image](https://github.com/user-attachments/assets/722b4744-f17c-4691-92a1-100c4cab11b7)
 
 
@@ -290,6 +292,31 @@ They:
 
 ![image](https://github.com/user-attachments/assets/506dc8ba-fa2d-4c20-ad12-fddd4fc6bb9d)
 
+# 5 Wafer-Level Packaging (WLP) with RDL – Fan-Out Flow
+Wafer-Level Packaging (WLP) is an advanced packaging technology where chips are packaged while still part of the wafer. It enables compact, high-performance, low-cost chip integration — especially for mobile and IoT devices.
+
+# What is RDL (Redistribution Layer) & Why It's Important?
+RDL (Redistribution Layer) is a critical metallization layer added during WLP:
+
+. Reroutes I/O pads to new positions to allow larger solder ball pitch.
+
+. Enables fan-out designs (area beyond original die).
+
+. Allows more I/Os in smaller form factor.
+
+. Improves electrical performance and design flexibility.
+
+Steps:
+
+Reconstitution	:  Allows known good dies to be used in a new wafer panel
+
+RDL (Redistribution Layer)	: Enables fine-pitch routing and bump placement
+
+Dielectric + Metal Coating: 	Forms the electrical routing infrastructure
+
+Solder Ball Attach: 	Provides final I/O connections to PCB
+
+Singulation: 	Final step to separate packages from reconstituted wafer
 
 ![image](https://github.com/user-attachments/assets/28c366d6-fcf3-442a-ba48-8de6e4f8588b)
 
