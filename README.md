@@ -156,6 +156,10 @@ Once the package is assembled, it is placed onto the PCB. The PCB provides:
 This section aids in evaluating package types based on key factors such as, Performance, Cost, Space limitations, Thermal performance and Reliability. Selecting the most suitable package requires balancing these factors according to the specific needs of the application, system design, and business objectives.
 ![image](https://github.com/user-attachments/assets/077e62ba-60c3-4735-b2e6-c34dc9e90e55)
 
+# CONCLUSION FROM MODULE 1
+![image](https://github.com/user-attachments/assets/0c1bf7ca-b2b4-4894-a44a-24ac0cf5c695)
+
+
 # Module 2:
 
 # From Silicon Wafer to Complete Package – Assembly and Fabrication Processes
@@ -325,7 +329,9 @@ have a look on the video click the thumbnail
 [![Watch on YouTube](https://img.youtube.com/vi/hR5orrmpoeE/0.jpg)](https://youtu.be/hR5orrmpoeE?si=eLOXYiwT2DbdwDtr)
 
 CONCLUSION FROM MODULE 1 AND MODULE 2
+
 ![Image](https://github.com/user-attachments/assets/97d58b83-045c-4a11-9d8b-a0af5c940dcf)
+
 
 
 
