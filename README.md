@@ -228,5 +228,6 @@ KEY STEPS:
   . The wafer is diced into individual packaged units using a precision blade.
        
 ![image](https://github.com/user-attachments/assets/0035c144-63fe-4794-9ada-3cf46e27fbfc)
-https://youtu.be/3YkGrhvrWxA?si=ZY4GtRBU10XeGFqQ
+[![Watch on YouTube](https://img.youtube.com/vi/3YkGrhvrWxA/0.jpg)](https://youtu.be/3YkGrhvrWxA?si=ZY4GtRBU10XeGFqQ)
+
 
