@@ -328,9 +328,11 @@ have a look on the video click the thumbnail
 
 [![Watch on YouTube](https://img.youtube.com/vi/hR5orrmpoeE/0.jpg)](https://youtu.be/hR5orrmpoeE?si=eLOXYiwT2DbdwDtr)
 
-CONCLUSION FROM MODULE 1 AND MODULE 2
+# CONCLUSION FROM MODULE 2
+![image](https://github.com/user-attachments/assets/42e3488b-c5ee-4ede-b265-aed369079f3c)
 
-![Image](https://github.com/user-attachments/assets/97d58b83-045c-4a11-9d8b-a0af5c940dcf)
+
+
 
 
 
