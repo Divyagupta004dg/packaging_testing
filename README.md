@@ -286,7 +286,9 @@ how it looks
 – Prevent solder crack failures
 
 8. Underfill Curing
-• The epoxy is hardened by heating, locking the chip in place.
+• The epoxy is hardened by heating, locking the chip in place
+Uploading Ansys Electronics Desktop Student 2024 R2 - Project2 - IcepakDesign4 - 3D Modeler - [Project2 - IcepakDesign4 - Modeler] 2025-06-24 23-41-25.mp4…
+
 
 9. Molding
 • Resin is applied for external protection from environmental damage.
