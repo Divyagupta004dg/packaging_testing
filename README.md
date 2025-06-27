@@ -585,3 +585,8 @@ FLOW CHART FROM MODULE 4
 . [ Amkor Manufacturing](https://youtu.be/hR5orrmpoeE?si=JQYHIL8gCzV1nKTK)
 
 . [Ansys Electronics Desktop Student](https://www.ansys.com/en-in/academic/students/ansys-electronics-desktop-student)
+
+## Acknowledgement
+[Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) {Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.}
+
+Tarun Kumar Agrawal {Dept. of Electrical Engineering IIT Gandhinagar}
