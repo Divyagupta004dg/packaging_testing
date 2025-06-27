@@ -420,27 +420,154 @@ then follow these and tick these things also select surface smoothing also tick 
 step 10 final setup
 ![image](https://github.com/user-attachments/assets/da0dfaf2-0c9b-4688-9f80-1d7575002731)
 
+## Module 4:
+## Ensuring Package Reliability – Testing and Performance Evaluation
+
+This module emphasizes the quality assurance and testing phases of semiconductor packaging, which are crucial for detecting functional defects and ensuring long-term reliability.
+
+## Full Semiconductor Backend Flow: Foundry to OSAT
+
+This diagram shows the complete packaging and testing pipeline starting from wafer fabrication (Foundry) to system-level testing (OSAT). It highlights key steps, process development, and failure analysis loops.
+
+1. Foundry Stage
+. Front-End Manufacturing
+
+   . Fabrication of the wafer using lithography, etching, deposition, etc.
+
+   . Known as "FEOL" (Front-End Of Line).
+
+. Wafer Probe Test
+
+   . Electrical testing of each die before dicing.
+
+   . Good/bad dies identified for packaging.
+
+. Wafer Sorting
+
+   . Dies are sorted based on test results.
+
+   . Only “known good dies” proceed to packaging.
+
+2. OSAT (Outsourced Semiconductor Assembly & Test) Stage
+   
+. Package Manufacturing
+
+   . Dies are attached to substrates and wire-bonded or flip-chip mounted.
+
+   . Includes die attach, bonding, molding, and singulation.
+
+. Package Testing
+
+   . Post-packaging electrical tests to detect failures.
+
+   . Ensures packaged chip meets performance specs.
+
+. System-Level Tests (SLT)
+
+   . Full end-product testing in a simulated real-world environment.
+
+   . Catches issues not seen at earlier test stages.
+
+![image](https://github.com/user-attachments/assets/6aa9606d-af4a-421d-a84b-66bf1b9f1376)
+
+
+## Final Testing Stages in Semiconductor Packaging
+
+These are the last stages of testing before a chip is qualified and shipped. They ensure electrical integrity, early reliability, and long-term performance under various conditions.
+
+1 AOST – Assembly Open and Short Test
+
+. Detects open circuits (unconnected paths) and shorts (unintended connections).
+
+. Ensures proper electrical assembly of the chip after packaging.
+
+2 Burn-in
+
+. Applies thermal and voltage stress to the chip.
+
+. Detects early-life failures (infant mortality defects).
+
+. Helps improve long-term reliability.
+
+3 Final Test
+
+. Conducted at both cold and hot temperatures.
+
+Verifies:
+
+  .  Functionality (chip performs correctly)
+
+  .  Parametric performance (voltage, current, timing, etc.)
+
+  .  Reliability specs across temperature range
+
+
+![image](https://github.com/user-attachments/assets/dc255cae-4eaa-4141-93e2-11e4396a1550)
+
+
+🔹 AOST (Assembly Open and Short Test) – Key Highlights
+. Performed after singulation or Trim & Form.
+
+. Detects opens, shorts, and missing/damaged balls/leads.
+
+. Uses electrical testing + vision inspection.
+
+. Common defects:
+
+   . HoP (Head on Pillow)
+
+   . Bridging (shorts)
+
+   . Non-Wet Opens (NWO)
+
+   . Die cracks
+
+. PGSRT sorts units: Best (1) → Scrap (4).
+
+. Ensures basic electrical integrity before advanced testing.
+
+![image](https://github.com/user-attachments/assets/bfefd0cc-2a6c-4a80-8e55-21b803d2689c)
+
+🔹 Burn-in Test 
+
+. Detects early-life (“infant mortality”) failures before customer shipment.
+
+. Devices are placed on Burn-in boards, then tested in high-temperature ovens.
+
+. Applies high voltage + high temperature to accelerate failure.
+
+. Catches initial defects: dielectric breakdown, metal faults, electromigration.
+
+. Test duration continues until failure rate curve flattens.
+
+. Ensures only reliable units survive for customer use.
+
+. Slightly shortens overall life, but improves field reliability.
+
+![image](https://github.com/user-attachments/assets/7bdb1716-db29-4f48-98dc-021035446e49)
+
+FINAL TEST
+
+![image](https://github.com/user-attachments/assets/e682832c-979e-4583-b242-63354c2b41ad)
+
+summery from it
+
+![image](https://github.com/user-attachments/assets/4d1826fc-20c6-4a20-b86d-511cfb82165f)
+
+FLOW CHART FROM MODULE 4
+
+![image](https://github.com/user-attachments/assets/699d0cf4-389e-4ff3-9572-34bab4a9a849)
+
+
+## Module 5:
+
+## Package Design and Modeling: Building a Semiconductor Package from Scratch
+
+## Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## References
+. Amkor Manufacturing
+        
+   https://www.ansys.com/en-in/academic/students/ansys-electronics-desktop-student
