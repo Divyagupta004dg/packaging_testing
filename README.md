@@ -64,46 +64,48 @@ Pin count (I/O pins)
 # 1 Package Structure
 This diagram illustrates the typical structure of an electronic package, which serves as a bridge between the silicon die and the system board (PCB). Key components include:
 
-Mold compound: Protects the internal components from environmental damage.
+. Mold compound: Protects the internal components from environmental damage.
 
-Die: The actual semiconductor chip performing the electronic functions.
+. Die: The actual semiconductor chip performing the electronic functions.
 
-Die-to-carrier interconnections: Enable electrical connectivity between the die and the carrier.
+. Die-to-carrier interconnections: Enable electrical connectivity between the die and the carrier.
 
-Carrier: Provides mechanical support and routing for signals.
+. Carrier: Provides mechanical support and routing for signals.
 
-Carrier-to-board interconnections: Link the package to the system board.
+. Carrier-to-board interconnections: Link the package to the system board.
 
-System Board (PCB): The final platform where the package is mounted and integrated into the device.
+. System Board (PCB): The final platform where the package is mounted and integrated into the device.
+
 ![image](https://github.com/user-attachments/assets/b5f3d3d6-bfe1-4296-b726-21c5156d5145)
+
 # 2 Types of Packaging
 Electronic component packaging is essential for protecting semiconductor devices and enabling their integration into systems. Packaging types are broadly classified into Through-Hole Mounting and Surface Mount Technology (SMT). Each type offers unique benefits in terms of size, performance, and application.
 
 1. Through-Hole Mounting
 
-DIP (Dual In-line Package): Rectangular package with two rows of pins for insertion into a PCB.
+. DIP (Dual In-line Package): Rectangular package with two rows of pins for insertion into a PCB.
 
-TO (Transistor Outline): Cylindrical or flat package for transistors with leads extending from the bottom.
+. TO (Transistor Outline): Cylindrical or flat package for transistors with leads extending from the bottom.
 
-PGA (Pin Grid Array): Package with a grid of pins underneath for socket or solder mounting.
+. PGA (Pin Grid Array): Package with a grid of pins underneath for socket or solder mounting.
 
 2. Surface Mount Technology (SMT)
 
-QFN (Quad Flat No-lead): Leadless package with solder pads underneath for compact mounting.
+. QFN (Quad Flat No-lead): Leadless package with solder pads underneath for compact mounting.
 
-QFP (Quad Flat Package): Flat square package with leads on all four sides.
+. QFP (Quad Flat Package): Flat square package with leads on all four sides.
 
-CSP (Chip Scale Package): Ultra-compact package nearly the same size as the chip itself.
+. CSP (Chip Scale Package): Ultra-compact package nearly the same size as the chip itself.
 
-PBGA (Plastic Ball Grid Array): BGA package using plastic substrate with solder balls underneath.
+. PBGA (Plastic Ball Grid Array): BGA package using plastic substrate with solder balls underneath.
 
-LGA (Land Grid Array): Package with flat contact pads instead of pins for board connection.
+. LGA (Land Grid Array): Package with flat contact pads instead of pins for board connection.
 
-PoP (Package on Package): Stacked ICs in a single package to save space and enhance performance.
+. PoP (Package on Package): Stacked ICs in a single package to save space and enhance performance.
 
-MCM (Multi-Chip Module): Multiple chips integrated into one module for higher functionality.
+. MCM (Multi-Chip Module): Multiple chips integrated into one module for higher functionality.
 
-CoWoS (Chip-on-Wafer-on-Substrate): Advanced 2.5D packaging integrating chips on a silicon interposer.
+. CoWoS (Chip-on-Wafer-on-Substrate): Advanced 2.5D packaging integrating chips on a silicon interposer.
 ![image](https://github.com/user-attachments/assets/5088baef-a5ea-4e41-9b82-c24a41804819)
 
 # 3 Anatomy of Packaging
@@ -111,41 +113,43 @@ Semiconductor packaging is categorized into Leadframe, Laminate, and Advanced pa
 
 1. Leadframe Packages
 
-DIP (Dual In-line Package): A rectangular package with two rows of pins for through-hole mounting.
+. DIP (Dual In-line Package): A rectangular package with two rows of pins for through-hole mounting.
 
-QFN (Quad Flat No-lead): A compact surface-mount package with no leads, using pads underneath.
+. QFN (Quad Flat No-lead): A compact surface-mount package with no leads, using pads underneath.
 
-Leadframe-CSP: A chip-scale package built on a leadframe for minimal size and cost.
+. Leadframe-CSP: A chip-scale package built on a leadframe for minimal size and cost.
 
-Leadframe-QFP: A flat package with leads on all four sides, using a leadframe base.
+. Leadframe-QFP: A flat package with leads on all four sides, using a leadframe base.
 
 2. Laminate Packages
 
-Wire bond PBGA: A plastic BGA package using wire bonding to connect the die to the substrate.
+. Wire bond PBGA: A plastic BGA package using wire bonding to connect the die to the substrate.
 
-Flip chip PBGA: A BGA package using flip-chip bonding for better electrical performance.
+. Flip chip PBGA: A BGA package using flip-chip bonding for better electrical performance.
 
-PBGA (Plastic Ball Grid Array): A cost-effective BGA package with plastic encapsulation.
+. PBGA (Plastic Ball Grid Array): A cost-effective BGA package with plastic encapsulation.
 
-LGA (Land Grid Array): A package with flat contact pads instead of pins for board-level connection.
+. LGA (Land Grid Array): A package with flat contact pads instead of pins for board-level connection.
 
-FC-CSP (Flip Chip Chip Scale Package): A compact package using flip-chip technology for high I/O density.
+. FC-CSP (Flip Chip Chip Scale Package): A compact package using flip-chip technology for high I/O density.
 
 3. Advanced Package Substrates
    
-2D FCBGA Substrate: A flat flip-chip BGA substrate for high-performance applications.
+. 2D FCBGA Substrate: A flat flip-chip BGA substrate for high-performance applications.
 
-2.1D FCBGA with RDL: Adds a redistribution layer to enhance signal routing and connectivity.
+. 2.1D FCBGA with RDL: Adds a redistribution layer to enhance signal routing and connectivity.
 
-2.3D FCBGA with Si Interposer: Uses a silicon interposer to connect multiple dies efficiently.
+. 2.3D FCBGA with Si Interposer: Uses a silicon interposer to connect multiple dies efficiently.
 
-2.5D CoWoS: Integrates SoC and HBM on a silicon interposer for high bandwidth and performance.
+. 2.5D CoWoS: Integrates SoC and HBM on a silicon interposer for high bandwidth and performance.
 
 ![image](https://github.com/user-attachments/assets/5f8963b6-e26c-419a-92c7-d3334a3e5142)
 
 # 4 Nomenclature of Packaging
 This graphic provides a structured overview of modern semiconductor packaging technologies and how different types of chips (single, multi-chip, SoCs, chiplets, etc.) are integrated with package substrates and ultimately connected to a Printed Circuit Board (PCB).
+
 ![image](https://github.com/user-attachments/assets/5ade0bdb-9252-45b5-84b5-ab11a35f43c1)
+
 Once the package is assembled, it is placed onto the PCB. The PCB provides:
 
 . System-level integration
@@ -157,9 +161,11 @@ Once the package is assembled, it is placed onto the PCB. The PCB provides:
 # 5  Comparative Packaging Evaluation
 
 This section aids in evaluating package types based on key factors such as, Performance, Cost, Space limitations, Thermal performance and Reliability. Selecting the most suitable package requires balancing these factors according to the specific needs of the application, system design, and business objectives.
+
 ![image](https://github.com/user-attachments/assets/077e62ba-60c3-4735-b2e6-c34dc9e90e55)
 
 # CONCLUSION FROM MODULE 1
+
 ![image](https://github.com/user-attachments/assets/0c1bf7ca-b2b4-4894-a44a-24ac0cf5c695)
 
 
@@ -181,6 +187,7 @@ This outlines the key stages in the semiconductor supply chain, detailing the fl
 . Product Assembly and Test: The final stage involves assembling the tested boards and other components into the end product, such as a smartphone, which undergoes final testing before reaching the market.
 
 Each stage is crucial for ensuring the performance and reliability of the final electronic product.
+
 ![image](https://github.com/user-attachments/assets/10d67b71-a848-4b54-9cb7-7c7831b517ea)
 
 # 2 Wafer Preparation Grinding and Dicing
@@ -200,6 +207,7 @@ Wafer Preparation Steps are done in controlled cleanroom environment where the w
 6.Tape Frame Mounting – Wafer mounted on tape frame for stability.
 
 7.Two-Step Dicing – Laser grooving followed by blade cutting to separate chips.
+
 ![image](https://github.com/user-attachments/assets/9f37dd0d-2d43-43b9-acbc-22a367f71c81)
 
 # 3  Wire Bond Packaging Process in Semiconductor Manufacturing
@@ -237,6 +245,7 @@ KEY STEPS:
 ![image](https://github.com/user-attachments/assets/0035c144-63fe-4794-9ada-3cf46e27fbfc)
 
 click on thumbnail to watch video.
+
 [![Watch on YouTube](https://img.youtube.com/vi/3YkGrhvrWxA/0.jpg)](https://youtu.be/3YkGrhvrWxA?si=ZY4GtRBU10XeGFqQ)
 
 # 4 Flip Chip Packaging Process – Mass Reflow & Thermo-Compression
@@ -256,6 +265,7 @@ They:
 4.Offer better thermal dissipation.
 
 how it looks 
+
 ![image](https://github.com/user-attachments/assets/722b4744-f17c-4691-92a1-100c4cab11b7)
 
 
@@ -334,6 +344,7 @@ have a look on the video click the thumbnail
 [![Watch on YouTube](https://img.youtube.com/vi/hR5orrmpoeE/0.jpg)](https://youtu.be/hR5orrmpoeE?si=eLOXYiwT2DbdwDtr)
 
 # CONCLUSION FROM MODULE 2
+
 ![image](https://github.com/user-attachments/assets/42e3488b-c5ee-4ede-b265-aed369079f3c)
 
 # Module 3:
@@ -382,6 +393,7 @@ DIE
 
 
 **STEP 4** SET THE SOURCE IN SUBSTRATE 
+
 ![image](https://github.com/user-attachments/assets/3d4d53a4-5c98-4f73-b8df-cb3a9ed042df)
 
 ![image](https://github.com/user-attachments/assets/d441e873-7604-473d-8017-215e621be836)
@@ -417,7 +429,9 @@ then go to validate and assign all click
 then follow these and tick these things also select surface smoothing also tick the part enable gaussian smoothing from there 
 
 ![image](https://github.com/user-attachments/assets/17a3d659-b28a-4532-a823-cd98d808b5fb)
+
 step 10 final setup
+
 ![image](https://github.com/user-attachments/assets/da0dfaf2-0c9b-4688-9f80-1d7575002731)
 
 ## Module 4:
@@ -568,6 +582,6 @@ FLOW CHART FROM MODULE 4
 
 
 ## References
-.[ Amkor Manufacturing](https://youtu.be/hR5orrmpoeE?si=JQYHIL8gCzV1nKTK)
+. [ Amkor Manufacturing](https://youtu.be/hR5orrmpoeE?si=JQYHIL8gCzV1nKTK)
 
-[Ansys Electronics Desktop Student](https://www.ansys.com/en-in/academic/students/ansys-electronics-desktop-student)
+. [Ansys Electronics Desktop Student](https://www.ansys.com/en-in/academic/students/ansys-electronics-desktop-student)
