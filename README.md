@@ -3,6 +3,8 @@ Packaging -fundamentals and testing
 
 This repository documents Divya Gupta's specialized training in advanced semiconductor packaging and assembly techniques. The comprehensive program bridged theoretical concepts with practical applications, covering cutting-edge technologies including 2.5D/3D packaging, multilayer RDL routing, and silicon interposer integration. Hands-on ANSYS simulation labs provided real-world experience in thermal modeling, stress analysis, and structural optimization. This repository serves as both a technical portfolio and a knowledge resource.
 
+## TABLE OF CONTENTS
+
 ![image](https://github.com/user-attachments/assets/2afa0daf-db90-488f-91c0-347b72169f36)
 
 
@@ -579,6 +581,37 @@ FLOW CHART FROM MODULE 4
 
 ## Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)
 
+Microcircuit Packaging Flow – Till Sealing Stage
+
+1. Wafer exits Fab → fabrication process completed.
+
+2. Probe Testing → checks for functional dies on wafer.
+
+3. Die Inking → marks bad dies for rejection.
+
+4. Wafer Thinning & Cleaning → reduces wafer thickness for packaging.
+
+5. Wafer Bake → removes moisture; improves die attach reliability.
+
+6. Wafer Dice → separates individual dies from wafer.
+
+7. Pick & Place → selects good dies and places them in packages.
+
+8. Die Attach / Eutectic Reflow → attaches die to package base.
+
+9. Wire Bonding → connects die pads to lead frame using wires (Au/Al).
+
+10. Sealing / Lid Placement → ceramic lid is sealed (air-tight or hermetic).
+
+11. Solder Dip → pre-coats leads with solder for board attachment.
+
+12. Part Marking → product info is printed on package.
+
+13. Lead Trimming & Forming → trims and bends leads to required shape.
+
+![image](https://github.com/user-attachments/assets/4b8cbc0a-1786-4e43-9216-42977a1e43a2)
+
+## Lab2 Designing QFN
 
 
 ## References
