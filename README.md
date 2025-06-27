@@ -569,5 +569,4 @@ FLOW CHART FROM MODULE 4
 
 ## References
 . Amkor Manufacturing
-        
-   https://www.ansys.com/en-in/academic/students/ansys-electronics-desktop-student
+[Ansys Electronics Desktop Student]https://www.ansys.com/en-in/academic/students/ansys-electronics-desktop-student
