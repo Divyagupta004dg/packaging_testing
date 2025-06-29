@@ -612,7 +612,96 @@ Microcircuit Packaging Flow – Till Sealing Stage
 ![image](https://github.com/user-attachments/assets/4b8cbc0a-1786-4e43-9216-42977a1e43a2)
 
 ## Lab2 Designing QFN
+**step 1** LAUNCH QFN
 
+![image](https://github.com/user-attachments/assets/5985f364-7f7f-45dd-93f6-8b62dbbbd431)
+
+**STEP 2** CREATE A DIE
+Material: Silicon
+Dimensions: 3mm x 3mm
+Die Height: 0.2 mm
+
+click on create rectangle 
+
+![image](https://github.com/user-attachments/assets/d85928a4-db11-4227-afde-e85a8575ba38)
+
+then select the rectangle > go to modeler >surface >thicken sheet then change the dimention to 0.2
+
+click redctangle go to>edit properties and change these
+
+![image](https://github.com/user-attachments/assets/fd0eb9a6-da06-4f32-93bf-128deac5e615)
+
+
+![image](https://github.com/user-attachments/assets/caf4d759-faad-418f-80c7-921176019f34)
+Fig: AEDT 3D viewer with die created
+
+**STEP 3** CREATE THE SUBSTRATE
+. Draw a rectangle with the same dimensions as the die (3 mm × 3 mm) and position it at the same coordinates (0, 0, 0).
+. Set its thickness to -100 microns (-0.1 mm), since the DAM layer is located beneath both the die and the substrate.
+![image](https://github.com/user-attachments/assets/40e9f8a4-1665-4d49-831a-4459149eb925)
+
+ Now change properties of substrate also 
+ 
+ ![image](https://github.com/user-attachments/assets/7145ceaa-f948-4eec-97cf-3279f7f5034c)
+. location of substrate should be (-1,-1,-0.1) 0.1 as to make space between die ans substrate.
+
+**STEP 4** CREATE A DIE ATTACH
+. make a rectangle over the die >change its properties to (0,0,0) and x and y axis both to =3
+. then same go for thicken sheet in modeler bar options make it (-0.1)
+. modify the name in edit properties and change the setting to
+
+![image](https://github.com/user-attachments/assets/556c1168-ea42-471c-9825-7a7982456f37)
+
+this is how a substrate die and die attach looks like 
+SUBSTRATE
+![image](https://github.com/user-attachments/assets/521c5911-20fc-4cb7-a6ce-168a84d7b714)
+
+DIE ATTACH
+![image](https://github.com/user-attachments/assets/d74d671d-eb4f-4804-ad9e-50a2f6f8da21)
+
+DIE
+![image](https://github.com/user-attachments/assets/cf981b2e-37ae-41a2-8947-905d6cf6b77a)
+
+**STEP 5** WIRE BONDING
+create a small rectangle on a die edit its properties to
+
+![image](https://github.com/user-attachments/assets/f85caef0-3728-40bb-b1b1-1ab9da69194e)
+
+change the thickness click the rectangle then go go to modeler
+to this
+![image](https://github.com/user-attachments/assets/ad1c8a43-45b6-448b-bc73-a25d079f8a84)
+
+NOW SIMILARLY CREATE A WIRE BOND ON SUBSTRATE
+Change the properties to
+![image](https://github.com/user-attachments/assets/0c15f273-8214-4d82-8b5e-75bd1d80ab92)
+
+now change the name of both to other no changes
+![image](https://github.com/user-attachments/assets/27563ec6-b23b-44ae-9468-aecd6ac3cfd3)
+![image](https://github.com/user-attachments/assets/6512f101-c2e5-4166-9610-a47a41dc1ba4)
+
+change the colors 
+
+![image](https://github.com/user-attachments/assets/3413a490-0a86-4e7d-a690-bc48c521a326)
+
+**STEP 6** CONNECT THE BOND WIRE
+IN the draw section select an arrow to draw wire bond
+![image](https://github.com/user-attachments/assets/7623b653-47f2-4fd0-acbf-b96483bb2991)
+
+NOTE every die rectangle dimention would be 
+![image](https://github.com/user-attachments/assets/1038941c-e9d2-4e85-b93a-3b29561f6c47)
+
+every substrate rectangle dimention would be 
+
+![image](https://github.com/user-attachments/assets/9a38f05f-044e-4fc6-b8a8-a1df1e669d65)
+
+this is how a bond wire looks like 
+
+![image](https://github.com/user-attachments/assets/159e0070-43b9-4f1a-a9bf-5ff00e1a9a1a)
+alll wires are attached
+
+![image](https://github.com/user-attachments/assets/fb771e28-461a-4a3c-8459-5c00c65b68f0)
+
+![image](https://github.com/user-attachments/assets/9272f62b-b9d1-4b2f-8a1d-14bea202ff2e)
 
 ## References
 . [ Amkor Manufacturing](https://youtu.be/hR5orrmpoeE?si=JQYHIL8gCzV1nKTK)
