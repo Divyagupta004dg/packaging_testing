@@ -1,4 +1,5 @@
-# Packaging_testing
+# PACKAGING-TESTING
+
 Packaging -fundamentals and testing
 
 This repository documents Divya Gupta's specialized training in advanced semiconductor packaging and assembly techniques. The comprehensive program bridged theoretical concepts with practical applications, covering cutting-edge technologies including 2.5D/3D packaging, multilayer RDL routing, and silicon interposer integration. Hands-on ANSYS simulation labs provided real-world experience in thermal modeling, stress analysis, and structural optimization. This repository serves as both a technical portfolio and a knowledge resource.
@@ -42,7 +43,7 @@ Modern ICs are born in ultra-clean fabs as fragile bare dies. Before these can e
 
 # Product Requirements in Semiconductor Packaging
 
-🧩 Understanding the Chip-to-Board Flow
+## Understanding the Chip-to-Board Flow
 
 The image illustrates the integration hierarchy from the die (chip) to the final PCB (board):   ![image](https://github.com/user-attachments/assets/324b3d76-96d5-4ca9-92e5-14bd33593519)
 
@@ -379,6 +380,9 @@ DIE STRUCTURTE
 
 ![image](https://github.com/user-attachments/assets/c37b9768-12c6-491f-88dc-075792f21a31)
 
+
+## 🔹 OVERVIEW
+
 ![Image](https://github.com/user-attachments/assets/6847667c-9205-4f56-87fb-8e868d539742)
 
 
@@ -704,6 +708,31 @@ alll wires are attached
 
 ![image](https://github.com/user-attachments/assets/9272f62b-b9d1-4b2f-8a1d-14bea202ff2e)
 
+
+## 🔹OVERVIEW
+
+![Image](https://github.com/user-attachments/assets/188bea6a-259e-4883-8e32-67c593be808a)
+
+
+**STEP 7** : Applying the Mold Compound and Finalizing the Package Model
+
+. Create a rectangular enclosure with dimensions 5 mm × 5 mm and a thickness of 1.2 mm to encapsulate the die and bond wires.
+
+. Position it at coordinates (-1, -1, -0.1) so that it sits above the substrate, fully covering the top side.
+
+. The 1.2 mm thickness ensures complete coverage of the die and bond wires while providing sufficient clearance for laser marking or other post-packaging processes.
+
+![image](https://github.com/user-attachments/assets/748f3089-e932-44f8-a633-77ea5ae49f28)
+
+CHANGE THE PROPERTIES
+![image](https://github.com/user-attachments/assets/ffda57db-c0f8-41f9-a69f-a63ae59ea846)
+
+## FULL FINAL QFN STRUCTURE
+
+![image](https://github.com/user-attachments/assets/1edfcd96-a73f-4dd5-94d1-31e7bf6026d8)
+![image](https://github.com/user-attachments/assets/f30825d6-6a49-4713-be1f-e72e0e47dbb6)
+![image](https://github.com/user-attachments/assets/2d9523d5-b917-46cc-b1ed-304e5f53ba77)
+![image](https://github.com/user-attachments/assets/73ce156a-ca70-4a94-b663-a18bf6e0c194)
 
 ## References
 . [ Amkor Manufacturing](https://youtu.be/hR5orrmpoeE?si=JQYHIL8gCzV1nKTK)
