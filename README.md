@@ -381,6 +381,7 @@ DIE STRUCTURTE
 
 ![Image](https://github.com/user-attachments/assets/6847667c-9205-4f56-87fb-8e868d539742)
 
+
 SUBSTRATE
 
 ![image](https://github.com/user-attachments/assets/b52bc95c-b833-4557-a2b6-7b3cd5c18deb)
