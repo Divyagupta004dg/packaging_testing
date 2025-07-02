@@ -405,11 +405,11 @@ DIE
 
 ![image](https://github.com/user-attachments/assets/d441e873-7604-473d-8017-215e621be836)
 
-**STEP 5 ** ASSIGN THE MONITORS IN SUBSTRATE AS WELL AS SAME STEPS IN THE DIE PART AND UNDERFILL DIED PART AS WELL 
+**STEP 5** ASSIGN THE MONITORS IN SUBSTRATE AS WELL AS SAME STEPS IN THE DIE PART AND UNDERFILL DIED PART AS WELL 
 
 ![image](https://github.com/user-attachments/assets/11d20f72-8277-4b3c-ad83-3c01a34e5a09)
 
-SO TO THE POINT AND SELECT THE TEMPRATURE ALSO IN TEH DIE PART AND UNDERDILL DIE PASRT ALSO
+SO TO THE POINT AND SELECT THE TEMPRATURE ALSO IN TEH DIE PART AND UNDERDILL DIE PART ALSO
 
 ![image](https://github.com/user-attachments/assets/3375987a-6aab-471b-a32f-a6f896081213)
 
@@ -418,6 +418,14 @@ NOW YOU SEE ALL THE THREE LAYERS IN THE MONITOR PART
 ![image](https://github.com/user-attachments/assets/a46776dd-f1dd-4bc9-8d32-b338a9256356)
 
 **STEP 6** GO TO Mesh > then in Simulations part > click on generate mesh
+
+After the mesh is generated, review its quality metrics, including Face Alignment, Skewness, and Volume.
+
+![image](https://github.com/user-attachments/assets/4a7d21d6-d71e-48ff-a87a-4be780f35e1e)
+
+![image](https://github.com/user-attachments/assets/cf34b58e-2a48-4567-80b0-4218f9627dd6)
+
+![image](https://github.com/user-attachments/assets/a98d775f-ae3c-4f0e-8800-c524fcd37c4d)
 
 **STEP 7** no go analysis choose this it shows ipack solve setup just click ok
 
