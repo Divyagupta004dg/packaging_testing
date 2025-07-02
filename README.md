@@ -419,6 +419,9 @@ NOW YOU SEE ALL THE THREE LAYERS IN THE MONITOR PART
 
 **STEP 6** GO TO Mesh > then in Simulations part > click on generate mesh
 
+![image](https://github.com/user-attachments/assets/6a76be91-592c-4d7a-a019-ed697277ea7e)
+
+
 After the mesh is generated, review its quality metrics, including Face Alignment, Skewness, and Volume.
 
 ![image](https://github.com/user-attachments/assets/4a7d21d6-d71e-48ff-a87a-4be780f35e1e)
@@ -437,7 +440,23 @@ then go to validate and assign all click
 
 ![image](https://github.com/user-attachments/assets/44410666-4f6f-4b27-9630-dd91c33b5958)
 
-**STEP 9** select the whole schematic then follow the image steps to set temprature
+
+**STEP 9** Results
+
+. validate the simulation setup
+
+. Click the Validate button in the top ribbon and confirm that all checks pass successfully.
+
+![image](https://github.com/user-attachments/assets/eaedbb40-3e4f-46bb-99eb-6b56ffae88f6)
+
+
+**STEP 10** select the whole schematic then follow the image steps to set temprature
+
+. Click on Analyze All button in the top ribbon
+
+. After the simulation is complete, use the left mouse button to draw a selection rectangle in the 3D view and select the entire FC-BGA package.
+
+. Right click and then select Plot Fields -> Temperature -> Temperature
 
 ![image](https://github.com/user-attachments/assets/9b88dd0d-cf22-4cb3-ba16-00ebb6e714ff)
 
@@ -445,11 +464,12 @@ then follow these and tick these things also select surface smoothing also tick 
 
 ![image](https://github.com/user-attachments/assets/17a3d659-b28a-4532-a823-cd98d808b5fb)
 
-step 10 final setup
+**step 11** final setup
 
 ![image](https://github.com/user-attachments/assets/da0dfaf2-0c9b-4688-9f80-1d7575002731)
 
 ## Module 4:
+
 ## Ensuring Package Reliability – Testing and Performance Evaluation
 
 This module emphasizes the quality assurance and testing phases of semiconductor packaging, which are crucial for detecting functional defects and ensuring long-term reliability.
